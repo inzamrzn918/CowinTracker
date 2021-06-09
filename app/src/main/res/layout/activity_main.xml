@@ -459,7 +459,6 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </GridLayout>
-
     </androidx.core.widget.NestedScrollView>
 
 </LinearLayout>

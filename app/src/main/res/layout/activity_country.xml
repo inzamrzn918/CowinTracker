@@ -11,7 +11,7 @@
         android:id="@+id/searchBar"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:hint="Search here"
+        android:hint="Search country"
         android:imeOptions="actionSearch"
         android:padding="8dp"
         android:layout_margin="4dp"
