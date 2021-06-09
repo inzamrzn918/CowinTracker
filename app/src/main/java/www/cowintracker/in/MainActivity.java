@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         if (getIntent().getStringExtra("country")!=null)
             country = getIntent().getStringExtra("country");
 
+        list = new ArrayList<>();
         cName.setText(country);
         cName.setOnClickListener(v -> startActivity(new Intent(MainActivity.this,CountryActivity.class)));
 
