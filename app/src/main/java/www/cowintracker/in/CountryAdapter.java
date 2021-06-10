@@ -1,5 +1,6 @@
 package www.cowintracker.in;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -60,6 +61,7 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.CountryV
                 Intent intent = new Intent(context,MainActivity.class);
                 intent.putExtra("country", data.getCountry());
                 context.startActivity(intent);
+                ((Activity)context).finish();
             }
         });
     }
